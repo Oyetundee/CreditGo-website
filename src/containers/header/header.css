@@ -1,0 +1,72 @@
+.project__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.project__header-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.project__header-content h2{
+    color: #A5BBC0;
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.project__header-content-text{
+    padding: 10rem 20rem 0 20rem;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #C4D3D6;
+    font-family: var(--font-family);
+}
+
+.project__header-button-container{
+    padding-top: 3rem;
+    display: flex;
+    gap: 24px;
+}
+
+.get-started {
+    background-color: #2FCC40;
+    color: white;
+    flex-direction: row;
+    outline: none;
+    border: none;
+    border-radius: 36px;
+    line-height: 30px;
+    padding: 8px 30px 8px 30px;
+    gap: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: var(--font-family);
+  }
+
+  .get-started .arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+  }
+
+  .download-app{
+    background-color: #2C3E41;
+    color: white;
+    flex-direction: row;
+    outline: none;
+    border: none;
+    border-radius: 57px;
+    padding: 8px 30px 8px 30px;
+    gap: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: var(--font-family);
+  }

@@ -1,0 +1,41 @@
+.project__mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.project__mission-section{
+    position: relative;
+    height: 50vh;
+    background-color: #28a745;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.wave{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    z-index: 1;
+    opacity: 0.8;
+
+}
+
+.frame{
+    position: absolute;
+    top: 5%;
+    right: 50px;
+    width: 25%;
+    z-index: 1;
+    opacity: 0.8;
+
+}
+
+.person{
+    height: 107%;
+    width: 30%;
+    right: 1%;
+    position: absolute;
+}

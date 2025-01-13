@@ -1,0 +1,24 @@
+.project__cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.project__cta-section{
+    position: relative;
+    height: 50vh;
+    background-color: #122023;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.frame16{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    z-index: 1;
+    object-fit: cover;
+
+}
